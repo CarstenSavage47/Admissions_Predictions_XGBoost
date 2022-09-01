@@ -168,6 +168,6 @@ plot_confusion_matrix(XGB_Refined,
                       values_format='d',
                       display_labels=["Selective=N","Selective=Y"])
 
-# It looks like we've reduced the number of misclassifcations from 33 to 30.
+# It looks like we've reduced the number of erroneous classifications from 33 to 30.
 # The parameter tuning did work. The model now predicts fewer Selective schools, however, than before.
 # That's the tradeoff we made to predict more Non-Selective schools.
